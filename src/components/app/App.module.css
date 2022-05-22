@@ -1,0 +1,15 @@
+.AppWrapper {
+  width: 1110px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 60px minmax(400px, 1fr);
+  gap: 5px;
+}
+
+
+
+
+
