@@ -1,0 +1,14 @@
+.Navbar {
+    box-sizing: border-box;
+    width: 260px;
+    height: 378px;
+    background: #60DD26;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}

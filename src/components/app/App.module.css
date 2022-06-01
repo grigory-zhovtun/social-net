@@ -5,8 +5,10 @@
   display: grid;
 
   grid-template-columns: 2fr 10fr;
-  grid-template-rows: 50px minmax(400px, 1fr);
+  grid-template-rows: 50px minmax(251px, 1fr);
   gap: 5px;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 
