@@ -2,3 +2,16 @@
     cursor: pointer;
     margin-top: 16px;
 }
+
+.links {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links:active {
+    color: #40422c;
+}
+
+.links:focus {
+    color: #40422c;
+}

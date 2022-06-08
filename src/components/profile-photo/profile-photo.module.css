@@ -1,4 +1,5 @@
 .ProfilePhoto {
+    grid-area: ava;
     width: 260px;
     height: 251px;
     background: #DAF247;

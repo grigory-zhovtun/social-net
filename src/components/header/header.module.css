@@ -1,6 +1,7 @@
 .Header {
     grid-column: 1 / 3;
-    width: 1110px;
+    grid-area: head;
+    width: 1092px;
     height: 50px;
     background: #60DD26;
     border-radius: 10px;

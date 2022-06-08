@@ -5,11 +5,11 @@ import {ProfileMenuItem} from "../profile-menu-item/profile-menu-item";
 export const Navbar = () => {
     return (
         <div className={s.Navbar}>
-            <ProfileMenuItem menuItem={'Profile'} />
-            <ProfileMenuItem menuItem={'Messages'} />
-            <ProfileMenuItem menuItem={'Photos'} />
-            <ProfileMenuItem menuItem={'Settings'} />
-            <ProfileMenuItem menuItem={'News'} />
+            <ProfileMenuItem address={'/'} menuItem={'Profile'} />
+            <ProfileMenuItem address={'/dialogs'} menuItem={'Messages'} />
+            <ProfileMenuItem address={'/photos'} menuItem={'Photos'} />
+            <ProfileMenuItem address={'/settings'} menuItem={'Settings'} />
+            <ProfileMenuItem address={'/news'} menuItem={'News'} />
         </div>
     );
 };
